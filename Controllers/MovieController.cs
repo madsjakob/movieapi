@@ -40,6 +40,7 @@ namespace MovieApi.Controllers
             Movie mov = Movie.Find(id);
             if(mov != null)
             {
+                mov.tmdbid = value.tmdbid;
                 mov.title = value.title;
             }
         }

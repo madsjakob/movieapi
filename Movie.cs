@@ -5,6 +5,7 @@ namespace MovieApi
 {
     public class Movie
     {
+        public int tmdbid { get; set; }
         public int nr { get; set; }
         public string title { get; set; }
 
